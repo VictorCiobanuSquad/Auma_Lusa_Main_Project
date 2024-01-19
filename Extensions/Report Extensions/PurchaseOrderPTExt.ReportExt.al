@@ -43,7 +43,6 @@ reportextension 50006 "Purchase Order PT Ext" extends "PTSS Purchase Order (PT)"
                 if CompanyInfoExt.Get() then;
                 if ShipToOptions = ShipToOptions::"Location" then begin
                     if Location.Get("Purchase Header"."Location Code") then begin
-
                         ShipToAddrExt[1] := Location.Name;
                         ShipToAddrExt[2] := Location."Name 2";
                         ShipToAddrExt[3] := Location.Address;
@@ -57,7 +56,7 @@ reportextension 50006 "Purchase Order PT Ext" extends "PTSS Purchase Order (PT)"
                 end;
                 if ShipToOptions = ShipToOptions::"Default (Company Address)" then begin
                     if CompanyInfoExt.get() then begin
-                        if CompanyInfoExt."Ship-to Name" <> '' then begin
+                        if CompanyInfoExt."Ship-to Name" = '' then begin
                             ShipToAddrExt[1] := CompanyInfoExt.Name;
                             ShipToAddrExt[2] := CompanyInfoExt.Name;
                             ShipToAddrExt[3] := CompanyInfoExt.Address;
@@ -93,6 +92,7 @@ reportextension 50006 "Purchase Order PT Ext" extends "PTSS Purchase Order (PT)"
         PaymentMethodLbl = 'Payment Method';
         BankLbl = 'Bank';
         OrderDateLbl = 'Order Date';
+        ShippingAddressLbl = 'Shipping Address';
     }
 
     var

@@ -587,7 +587,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 3422919386 - Field 759801574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>Package Weight</source>
-          <target>Peso Total</target>
+          <target>Peso Emabalagem</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesShipmentHeaderExt - Field Package Weight - Property Caption</note>
         </trans-unit>
@@ -614,6 +614,12 @@
           <target>Forma de Pagamento</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3536048044 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
+          <source>Shipping Address</source>
+          <target>Direção de Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel ShippingAddressLbl</note>
         </trans-unit>
         <trans-unit id="ReportExtension 3536048044 - ReportLabel 4028278386" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
           <source>Suplier</source>
@@ -824,6 +830,12 @@
           <target>Direção de Envio</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel ShippingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 2844867870" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Total Weight</source>
+          <target>Peso Total</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel WeightLbl</note>
         </trans-unit>
       </group>
     </body>

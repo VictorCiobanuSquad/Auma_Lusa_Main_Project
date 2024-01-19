@@ -513,6 +513,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel PaymentMethodLbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 3536048044 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
+          <source>Shipping Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel ShippingAddressLbl</note>
+        </trans-unit>
         <trans-unit id="ReportExtension 3536048044 - ReportLabel 4028278386" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
           <source>Suplier</source>
           <note from="Developer" annotates="general" priority="2"></note>

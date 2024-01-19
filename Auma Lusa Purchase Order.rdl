@@ -14158,7 +14158,7 @@ Cstr("")
       <Width>19.03842cm</Width>
       <Page>
         <PageHeader>
-          <Height>7.5303cm</Height>
+          <Height>7.80314cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -14285,7 +14285,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox521</rd:DefaultName>
-                  <Top>4.97883cm</Top>
+                  <Top>5.48683cm</Top>
                   <Left>0.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14316,7 +14316,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox26</rd:DefaultName>
-                  <Top>4.97883cm</Top>
+                  <Top>5.48683cm</Top>
                   <Left>4.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14354,7 +14354,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox521</rd:DefaultName>
-                  <Top>4.47883cm</Top>
+                  <Top>4.98683cm</Top>
                   <Left>0.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14385,7 +14385,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox26</rd:DefaultName>
-                  <Top>4.47883cm</Top>
+                  <Top>4.98683cm</Top>
                   <Left>4.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14415,7 +14415,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox521</rd:DefaultName>
-                  <Top>5.47883cm</Top>
+                  <Top>5.98683cm</Top>
                   <Left>0.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14446,7 +14446,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox26</rd:DefaultName>
-                  <Top>5.47883cm</Top>
+                  <Top>5.98683cm</Top>
                   <Left>4.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14476,7 +14476,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox521</rd:DefaultName>
-                  <Top>3.97883cm</Top>
+                  <Top>4.48683cm</Top>
                   <Left>0.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14507,7 +14507,7 @@ Cstr("")
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox26</rd:DefaultName>
-                  <Top>3.97883cm</Top>
+                  <Top>4.48683cm</Top>
                   <Left>4.10367cm</Left>
                   <Height>0.5cm</Height>
                   <Width>4cm</Width>
@@ -14880,7 +14880,7 @@ Cstr("")
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value>=Code.GetData(55,1)</Value>
+                          <Value>=Parameters!ShippingAddressLbl.Value</Value>
                           <Style>
                             <FontFamily>Segoe UI</FontFamily>
                             <FontSize>8pt</FontSize>
@@ -15059,10 +15059,290 @@ Cstr("")
                     <PaddingBottom>2pt</PaddingBottom>
                   </Style>
                 </Textbox>
+                <Textbox Name="Textbox42">
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt1.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                          </Style>
+                        </TextRun>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt2.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt3.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddExtr4.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt5.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt6.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt7.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!ShipToAddrExt8.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value />
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value />
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value />
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value />
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                  </Paragraphs>
+                  <rd:DefaultName>Textbox31</rd:DefaultName>
+                  <Top>3.90995cm</Top>
+                  <Left>12.49238cm</Left>
+                  <Height>2.59005cm</Height>
+                  <Width>6.28183cm</Width>
+                  <ZIndex>21</ZIndex>
+                  <Style>
+                    <Border>
+                      <Style>Solid</Style>
+                    </Border>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <PaddingTop>2pt</PaddingTop>
+                    <PaddingBottom>2pt</PaddingBottom>
+                  </Style>
+                </Textbox>
+                <Textbox Name="Textbox43">
+                  <CanGrow>true</CanGrow>
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!CompanyCRC.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                      </Style>
+                    </Paragraph>
+                  </Paragraphs>
+                  <rd:DefaultName>Textbox26</rd:DefaultName>
+                  <Top>3.46507cm</Top>
+                  <Left>4.12211cm</Left>
+                  <Height>0.5cm</Height>
+                  <Width>4cm</Width>
+                  <ZIndex>22</ZIndex>
+                  <Style>
+                    <Border>
+                      <Style>None</Style>
+                    </Border>
+                    <VerticalAlign>Middle</VerticalAlign>
+                  </Style>
+                </Textbox>
+                <Textbox Name="Textbox540">
+                  <CanGrow>true</CanGrow>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!CompanyCRCCaption.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                      </Style>
+                    </Paragraph>
+                  </Paragraphs>
+                  <rd:DefaultName>Textbox521</rd:DefaultName>
+                  <Top>3.46507cm</Top>
+                  <Left>0.10367cm</Left>
+                  <Height>0.5cm</Height>
+                  <Width>4.01844cm</Width>
+                  <ZIndex>23</ZIndex>
+                  <Style>
+                    <Border>
+                      <Style>None</Style>
+                    </Border>
+                    <VerticalAlign>Middle</VerticalAlign>
+                  </Style>
+                </Textbox>
+                <Textbox Name="Textbox45">
+                  <CanGrow>true</CanGrow>
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!CompanyRegistration.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                      </Style>
+                    </Paragraph>
+                  </Paragraphs>
+                  <rd:DefaultName>Textbox26</rd:DefaultName>
+                  <Top>3.96507cm</Top>
+                  <Left>4.12211cm</Left>
+                  <Height>0.5cm</Height>
+                  <Width>4cm</Width>
+                  <ZIndex>24</ZIndex>
+                  <Style>
+                    <Border>
+                      <Style>None</Style>
+                    </Border>
+                    <VerticalAlign>Middle</VerticalAlign>
+                  </Style>
+                </Textbox>
+                <Textbox Name="Textbox544">
+                  <CanGrow>true</CanGrow>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Fields!CompanyRegistrationCaption.Value</Value>
+                          <Style>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style>
+                        <TextAlign>Left</TextAlign>
+                      </Style>
+                    </Paragraph>
+                  </Paragraphs>
+                  <rd:DefaultName>Textbox521</rd:DefaultName>
+                  <Top>3.96507cm</Top>
+                  <Left>0.10367cm</Left>
+                  <Height>0.5cm</Height>
+                  <Width>4.01844cm</Width>
+                  <ZIndex>25</ZIndex>
+                  <Style>
+                    <Border>
+                      <Style>None</Style>
+                    </Border>
+                    <VerticalAlign>Middle</VerticalAlign>
+                  </Style>
+                </Textbox>
               </ReportItems>
               <KeepTogether>true</KeepTogether>
               <Left>0.11369cm</Left>
-              <Height>7.5303cm</Height>
+              <Height>7.71848cm</Height>
               <Width>18.92473cm</Width>
               <Style>
                 <Border>
@@ -15275,6 +15555,15 @@ Cstr("")
       </DefaultValue>
       <Prompt>OrderDateLbl</Prompt>
     </ReportParameter>
+    <ReportParameter Name="ShippingAddressLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ShippingAddressLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ShippingAddressLbl</Prompt>
+    </ReportParameter>
     <ReportParameter Name="TrackingSpecBufferSerNoCaption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -15288,7 +15577,7 @@ Cstr("")
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>6</NumberOfRows>
+      <NumberOfRows>7</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -15318,6 +15607,11 @@ Cstr("")
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>5</RowIndex>
+          <ParameterName>ShippingAddressLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
           <ParameterName>TrackingSpecBufferSerNoCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
