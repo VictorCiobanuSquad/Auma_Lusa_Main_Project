@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="pt-PT" original="AUMALUSA">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 3943073978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Receipt Confirmation (PT)</source>
+          <target>Confirmação Receção Compra (PT)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3486763210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType AmountCap</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1067670101" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <target>E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType CompanyEmail</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3017758607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <target>Telefone</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType CompanyInfoPhone</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3461834954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrição</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Description</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1813619452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Clause</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType ExemptionReasonText</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2191007624" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Amount</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType InvDiscountAmt</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1002945847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType InvNoText</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2661973018" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType InvoiceNoCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3189566810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount on VAT</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType LineAmtAfterInvDisc</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 10173690" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Dimensions</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType LineDim</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1830435674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Loc</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType LoadLoc</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3523677570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType LotNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 949215307" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nº</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType No</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1240791067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PageCap</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 4186226347" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PaymentTermsDescription</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3037438984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Data Registo</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PostingDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 4154978671" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Withholding Amount</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PTSSRetAmtLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 292514534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>With. Tax</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PTSSRetentionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3270213679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total To Pay</source>
+          <target>Total a Pagar</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PTSSTotalToPay</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3365699563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total:</source>
+          <target>Total:</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PTSSTotalWithholdingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 611545828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Specification</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PTSSVATSpecificationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2988690098" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Withholding Tax Specifications</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PTSSWithholdingSpecificationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 4227245943" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PurchInvDueDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1756960370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disc. %</source>
+          <target>% Desc.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType PurchInvLineDisc</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1795468512" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty.</source>
+          <target>Qtd.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Qty</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 41004736" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C.R.C.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType RegistrationAT</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 947684431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType RetAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2913423195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ret. Code</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType RetCodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 977825319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incidence</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType RetIncLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3471533959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ret. %</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType RetPercLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2164308859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType SerialNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3078595112" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType ShipmentDate</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 4370631" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Time</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType ShipmentTime</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 232471621" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType ShiptoAddressCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2385613931" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType ShptMethodDesc</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3973950074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SubTotal</source>
+          <target>Sub-Total</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Subtotal</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2022273301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022895</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 746880067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification in </source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022897</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 915789090" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local Currency</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022898</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 278092473" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate: %1/%2</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022899</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1874196328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Excl. VAT </source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022902</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1236499711" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022903</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1405408734" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Triplicate</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022904</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3787286179" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ST Amount</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022907</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3956195202" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total EUR</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022908</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3531542258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ATCUD:</source>
+          <target>ATCUD:</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022911</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1618452407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This document is not an invoice.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Text31022912</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2478281689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport...</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType TransFooter</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3188999807" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transported...</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType TransHeader</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3202150672" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Txt2Via</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2815399258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2nd Copy</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType Txt2Via2</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 133630883" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType TxtOriginal</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2988376383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost</source>
+          <target>Custo Unitário</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType UnitCost</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 619409911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unload Location</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType UnloadLoc</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1891335241" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit</source>
+          <target>Unidade</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType UOM</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2547352301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VATAmt</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3636670330" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VATBase</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 1727554479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Clause</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VATClauses</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3541196869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <target>% IVA</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VATPercentage</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 4293739102" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VATRegNo</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3302686342" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Item No.: %1</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VendorItemNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3257397675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Order No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType VendorOrderNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3973365742" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrição</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType WithHoldingDescCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 509360142" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType WithHoldingTaxAmountCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2940710310" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WithholdingTaxAmount</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType WithholdingTaxCap</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 2282536053" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WithHolding Tax Code</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType WithHoldingTaxCodeCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 3455108646" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WithHolding Tax %</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType WithHoldingTaxPercCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - NamedType 4212456975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - NamedType YesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - ReportDataItem 2072992664 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - ReportDataItem Purchase Header - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - ReportLabel 1095348740" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date</source>
+          <target>Data Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - ReportLabel OrderDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - ReportLabel 4028278386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suplier</source>
+          <target>Fornecedor</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - ReportLabel SuplierLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - ReportLabel 245426702" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Total</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - ReportLabel Total</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 3255118903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the document is archived after you print it.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ArchiveDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 3255118903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Document</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ArchiveDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 816368762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that interactions with the contact are logged.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control LogInteraction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 816368762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 2578066365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many copies of the document to print.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control NoOfCopies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Nº Cópias</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 2410258384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Cross Reference</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control PrintCrossReference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 4225320787 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the report to include information about components that were used in linked assembly orders that supplied the item(s) being sold.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ShowAssemblyComponents - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 4225320787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Assembly Components</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ShowAssemblyComponents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 316520822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the printed report to show information that is only for internal use.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ShowInternalInfo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 316520822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Internal Information</source>
+          <target>Mostrar Informação Interna</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ShowInternalInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3943073978 - Control 3571734211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Serial/Lot Number Appendix</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ShowLotSN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 194870262 - Control 3181128135 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3657300613">
+          <source>Tarrif number</source>
+          <target>Cód. Aduaneiro</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Categories Ext - Control Tarrif No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 515410600 - Action 4200172002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>Purchase Receipt Confirmation</source>
+          <target>Confirmação Receção Compra</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Ext - Action Print Confirmation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 515410600 - Action 4200172002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>Purchase Receipt Confirmation</source>
+          <target>Confirmação Receção Compra</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Ext - Action Print Confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4062771063 - Control 3045335507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1116965951">
+          <source>Specify if all the items are invoiced</source>
+          <target>Especifique se todos os itens são faturados</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Receipts Ext - Control Completely Invoiced - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2186432911 - Control 3045335507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Specify if all the items are invoiced</source>
+          <target>Especifique se todos os itens são faturados</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Shipment Card Ext - Control Completely Invoiced - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2186432911 - Control 759801574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source/>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Shipment Card Ext - Control Package Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 611316364 - Control 759801574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 950053399">
+          <source/>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Shipment Update Ext - Control Package Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 249589110 - Control 3045335507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1840709038">
+          <source>Specify if all the items are invoiced</source>
+          <target>Especifique se todos os itens são faturados</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Shipments Ext - Control Completely Invoiced - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 194870262 - Field 3181128135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1487222247">
+          <source>Tarrif No.</source>
+          <target>Cód. Aduaneiro</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Categories Ext - Field Tarrif No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084368035 - Field 3045335507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1052755578">
+          <source>Completely Invoiced</source>
+          <target>Totalmente Faturado</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Receipt Header Ext - Field Completely Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3422919386 - Field 3045335507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Completely Invoiced</source>
+          <target>Totalmente Faturado</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesShipmentHeaderExt - Field Completely Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3422919386 - Field 759801574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Package Weight</source>
+          <target>Peso Total</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesShipmentHeaderExt - Field Package Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2810537186 - Field 4130717728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Parent Category</source>
+          <target>Categoria Pai</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SquadItemExt - Field Parent Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3536048044 - ReportLabel 308753192" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
+          <source>Bank</source>
+          <target>Banco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel BankLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3536048044 - ReportLabel 1095348740" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
+          <source>Order Date</source>
+          <target>Data Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel OrderDateLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3536048044 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
+          <source>Payment Method</source>
+          <target>Forma de Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3536048044 - ReportLabel 4028278386" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2691964384">
+          <source>Suplier</source>
+          <target>Fornecedor</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Purchase Order PT Ext - ReportLabel SuplierLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1222500990 - NamedType 1646110071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1222500990">
+          <source>Payment Method</source>
+          <target>Forma de Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Credit Memo Pt Ext - NamedType PaymentMethodTxt</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1222500990 - ReportLabel 308753192" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3021368589">
+          <source>Bank</source>
+          <target>Banco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Credit Memo Pt Ext - ReportLabel BankLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1222500990 - ReportLabel 2524263349" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3021368589">
+          <source>Client</source>
+          <target>Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Credit Memo Pt Ext - ReportLabel ClientLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1222500990 - ReportLabel 1699462585" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3021368589">
+          <source>All sales operations will be subject to the General Conditions of AUMA Lusa Unipessoal, Lda, our credit insurer and the particular conditions agreed in each case. Our General Terms and Conditions can be requested or downloaded at www.auma.com AUMA Lusa Unipessoal, Lda is responsible for processing in accordance with the GDPR and the GDPR for the purpose of maintaining a business relationship and preserved as long as there is a mutual interest. The data will not be communicated to third parties. They may exercise their rights of access, rectification, portability, exclusion, limitation and opposition through Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com and complaints: https://www.cnpd.pt/index.asp</source>
+          <target>Todas as operações de venda estarão sujeitas às Condições Gerais da AUMA Lusa Unipessoal, Lda, da nossa seguradora de crédito e das condições particulares acordadas em cada caso. Nossas Condições Gerais podem ser solicitadas ou descarregadas em www.auma.com AUMA Lusa Unipessoal, Lda é responsável pelo processamento de acordo com o GDPR e o RGPD com a finalidade de manter uma relação comercial e preservada desde que haja um interesse mútuo. Os dados não serão comunicados a terceiros. Poderão exercer os direitos de acesso, retificação, portabilidade, exclusão limitação e oposição através de Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com e de reclamações: https://www.cnpd.pt/index.asp</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Credit Memo Pt Ext - ReportLabel FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 308753192" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Bank</source>
+          <target>Banco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel BankLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Billing Address</source>
+          <target>Direção Faturação</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel BillingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 2524263349" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Client</source>
+          <target>Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel ClientLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 4215599667" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Customer Confirmation</source>
+          <target>Conforme o Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel CustomerConfirmationLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 481445982" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Due Date</source>
+          <target>Data Vencimento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel DueDateLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 1699462585" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>All sales operations will be subject to the General Conditions of AUMA Lusa Unipessoal, Lda, our credit insurer and the particular conditions agreed in each case. Our General Terms and Conditions can be requested or downloaded at www.auma.com AUMA Lusa Unipessoal, Lda is responsible for processing in accordance with the GDPR and the GDPR for the purpose of maintaining a business relationship and preserved as long as there is a mutual interest. The data will not be communicated to third parties. They may exercise their rights of access, rectification, portability, exclusion, limitation and opposition through Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com and complaints: https://www.cnpd.pt/index.asp</source>
+          <target>Todas as operações de venda estarão sujeitas às Condições Gerais da AUMA Lusa Unipessoal, Lda, da nossa seguradora de crédito e das condições particulares acordadas em cada caso. Nossas Condições Gerais podem ser solicitadas ou descarregadas em www.auma.com AUMA Lusa Unipessoal, Lda é responsável pelo processamento de acordo com o GDPR e o RGPD com a finalidade de manter uma relação comercial e preservada desde que haja um interesse mútuo. Os dados não serão comunicados a terceiros. Poderão exercer os direitos de acesso, retificação, portabilidade, exclusão limitação e oposição através de Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com e de reclamações: https://www.cnpd.pt/index.asp</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 416272378" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>IBAN</source>
+          <target>IBAN</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel IBANLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Payment Method</source>
+          <target>Forma de Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 1811756935" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>Shipment Method</source>
+          <target>Método de Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel ShipmentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 4065307800 - ReportLabel 4020667215" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2739162599">
+          <source>SWIFT</source>
+          <target>SWIFT</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Invoice PT Ext - ReportLabel SWIFTLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 2524263349" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>Client</source>
+          <target>Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel ClientLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 3764383116" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>Client Confirmation</source>
+          <target>Conforme o Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 1699462585" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>All sales operations will be subject to the General Conditions of AUMA Lusa Unipessoal, Lda, our credit insurer and the particular conditions agreed in each case. Our General Terms and Conditions can be requested or downloaded at www.auma.com AUMA Lusa Unipessoal, Lda is responsible for processing in accordance with the GDPR and the GDPR for the purpose of maintaining a business relationship and preserved as long as there is a mutual interest. The data will not be communicated to third parties. They may exercise their rights of access, rectification, portability, exclusion, limitation and opposition through Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com and complaints: https://www.cnpd.pt/index.asp</source>
+          <target>Todas as operações de venda estarão sujeitas às Condições Gerais da AUMA Lusa Unipessoal, Lda, da nossa seguradora de crédito e das condições particulares acordadas em cada caso. Nossas Condições Gerais podem ser solicitadas ou descarregadas em www.auma.com AUMA Lusa Unipessoal, Lda é responsável pelo processamento de acordo com o GDPR e o RGPD com a finalidade de manter uma relação comercial e preservada desde que haja um interesse mútuo. Os dados não serão comunicados a terceiros. Poderão exercer os direitos de acesso, retificação, portabilidade, exclusão limitação e oposição através de Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com e de reclamações: https://www.cnpd.pt/index.asp</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 1095348740" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>Promised Delivery Date</source>
+          <target>Data Entrega Prometida</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel OrderDateLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>Payment Method</source>
+          <target>Forma de Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>Shipping Address</source>
+          <target>Direção de Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel ShippingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2192854819 - ReportLabel 2207515347" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2994174449">
+          <source>Shipping Agent</source>
+          <target>Transportador</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Order Con PT Ext - ReportLabel ShippingAgentLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1000268201 - ReportLabel 308753192" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 943499269">
+          <source>Bank</source>
+          <target>Banco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Quote PT Ext - ReportLabel BankLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1000268201 - ReportLabel 1632929538" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 943499269">
+          <source>External Document No.</source>
+          <target>Nº Doc Externo</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Quote PT Ext - ReportLabel ExternalNoLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1000268201 - ReportLabel 1699462585" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 943499269">
+          <source>All sales operations will be subject to the General Conditions of AUMA Lusa Unipessoal, Lda, our credit insurer and the particular conditions agreed in each case. Our General Terms and Conditions can be requested or downloaded at www.auma.com AUMA Lusa Unipessoal, Lda is responsible for processing in accordance with the GDPR and the GDPR for the purpose of maintaining a business relationship and preserved as long as there is a mutual interest. The data will not be communicated to third parties. They may exercise their rights of access, rectification, portability, exclusion, limitation and opposition through Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com and complaints: https://www.cnpd.pt/index.asp</source>
+          <target>Todas as operações de venda estarão sujeitas às Condições Gerais da AUMA Lusa Unipessoal, Lda, da nossa seguradora de crédito e das condições particulares acordadas em cada caso. Nossas Condições Gerais podem ser solicitadas ou descarregadas em www.auma.com AUMA Lusa Unipessoal, Lda é responsável pelo processamento de acordo com o GDPR e o RGPD com a finalidade de manter uma relação comercial e preservada desde que haja um interesse mútuo. Os dados não serão comunicados a terceiros. Poderão exercer os direitos de acesso, retificação, portabilidade, exclusão limitação e oposição através de Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com e de reclamações: https://www.cnpd.pt/index.asp</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Quote PT Ext - ReportLabel FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1000268201 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 943499269">
+          <source>Payment Method</source>
+          <target>Forma de Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Quote PT Ext - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1000268201 - ReportLabel 1267518538" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 943499269">
+          <source>Project No.</source>
+          <target>Nº Projeto</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Quote PT Ext - ReportLabel ProjectNoLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1000268201 - ReportLabel 1811756935" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 943499269">
+          <source>Shipment Method</source>
+          <target>Método de Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Quote PT Ext - ReportLabel ShipmentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 2524263349" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Client</source>
+          <target>Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel ClientLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 3286606726" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Comments</source>
+          <target>Comentários</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel CommentsLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 1699462585" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>All sales operations will be subject to the General Conditions of AUMA Lusa Unipessoal, Lda, our credit insurer and the particular conditions agreed in each case. Our General Terms and Conditions can be requested or downloaded at www.auma.com AUMA Lusa Unipessoal, Lda is responsible for processing in accordance with the GDPR and the GDPR for the purpose of maintaining a business relationship and preserved as long as there is a mutual interest. The data will not be communicated to third parties. They may exercise their rights of access, rectification, portability, exclusion, limitation and opposition through Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com and complaints: https://www.cnpd.pt/index.asp</source>
+          <target>Todas as operações de venda estarão sujeitas às Condições Gerais da AUMA Lusa Unipessoal, Lda, da nossa seguradora de crédito e das condições particulares acordadas em cada caso. Nossas Condições Gerais podem ser solicitadas ou descarregadas em www.auma.com AUMA Lusa Unipessoal, Lda é responsável pelo processamento de acordo com o GDPR e o RGPD com a finalidade de manter uma relação comercial e preservada desde que haja um interesse mútuo. Os dados não serão comunicados a terceiros. Poderão exercer os direitos de acesso, retificação, portabilidade, exclusão limitação e oposição através de Rua D. João II, 8-B, 2730-061 Queluz de Baixo, BARCARENA (Portugal). Email: aumalusa@auma.com e de reclamações: https://www.cnpd.pt/index.asp</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel FooterLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 2557592589" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Shipping Agent</source>
+          <target>Transportador</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel ShipmentAgentLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 1811756935" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Shipment Method</source>
+          <target>Método de Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel ShipmentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 3983004501" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Shipment No.</source>
+          <target>Guia de Remessa</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel ShipmentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3887125287 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2952196496">
+          <source>Shipping Address</source>
+          <target>Direção de Envio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Sales Shipment PT Ext - ReportLabel ShippingAddressLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
