@@ -58,7 +58,7 @@ reportextension 50006 "Purchase Order PT Ext" extends "PTSS Purchase Order (PT)"
                     if CompanyInfoExt.get() then begin
                         if CompanyInfoExt."Ship-to Name" = '' then begin
                             ShipToAddrExt[1] := CompanyInfoExt.Name;
-                            ShipToAddrExt[2] := CompanyInfoExt.Name;
+                            ShipToAddrExt[2] := CompanyInfoExt."Name 2";
                             ShipToAddrExt[3] := CompanyInfoExt.Address;
                             ShipToAddrExt[4] := CompanyInfoExt."Address 2";
                             ShipToAddrExt[5] := CompanyInfoExt.City;
