@@ -1331,7 +1331,7 @@ report 50001 "PTSS Purchase Receipt (PT)" //230333092,n
         TotalExclVATText: Text[50];
         TotalInclVATText: Text[50];
         CopyText: Text[30];
-        DimText: Text[120];
+        DimText: Text[75];
         OldDimText: Text[75];
         VALSpecLCYHeader: Text[80];
         VALExchRate: Text[50];
@@ -1433,7 +1433,6 @@ report 50001 "PTSS Purchase Receipt (PT)" //230333092,n
         PTSSTotalToPay: Label 'Total To Pay';
         PTSSRetAmtLbl: Label 'Withholding Amount';
         PTSSTotalAmtToPay: Decimal;
-        [InDataSet]
         ArchiveDocumentEnable: Boolean;
         PurchInvDueDate: Label 'Due Date';
         PurchInvLineDisc: Label 'Disc. %';
