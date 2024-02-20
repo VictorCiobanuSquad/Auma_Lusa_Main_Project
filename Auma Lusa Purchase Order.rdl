@@ -15275,6 +15275,15 @@ Cstr("")
       </DefaultValue>
       <Prompt>OrderDateLbl</Prompt>
     </ReportParameter>
+    <ReportParameter Name="ShippingAddressLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ShippingAddressLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ShippingAddressLbl</Prompt>
+    </ReportParameter>
     <ReportParameter Name="TrackingSpecBufferSerNoCaption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -15288,7 +15297,7 @@ Cstr("")
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>6</NumberOfRows>
+      <NumberOfRows>7</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -15318,6 +15327,11 @@ Cstr("")
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>5</RowIndex>
+          <ParameterName>ShippingAddressLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
           <ParameterName>TrackingSpecBufferSerNoCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>

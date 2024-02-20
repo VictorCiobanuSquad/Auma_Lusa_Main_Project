@@ -16542,6 +16542,24 @@ End Function</Code>
         <Field Name="VATSpecLbl">
           <DataField>VATSpecLbl</DataField>
         </Field>
+        <Field Name="TotalInEURLbl">
+          <DataField>TotalInEURLbl</DataField>
+        </Field>
+        <Field Name="TotalAmountInEUR">
+          <DataField>TotalAmountInEUR</DataField>
+        </Field>
+        <Field Name="TotalAmountInEURFormat">
+          <DataField>TotalAmountInEURFormat</DataField>
+        </Field>
+        <Field Name="SecondHandLegalMention">
+          <DataField>SecondHandLegalMention</DataField>
+        </Field>
+        <Field Name="HasSecondHandAssets">
+          <DataField>HasSecondHandAssets</DataField>
+        </Field>
+        <Field Name="OnlySecondHandAssets">
+          <DataField>OnlySecondHandAssets</DataField>
+        </Field>
         <Field Name="EMail">
           <DataField>EMail</DataField>
         </Field>
@@ -16790,6 +16808,15 @@ End Function</Code>
         </Field>
         <Field Name="ItemRefNo">
           <DataField>ItemRefNo</DataField>
+        </Field>
+        <Field Name="PTSS_Second_Hand_VAT">
+          <DataField>PTSS_Second_Hand_VAT</DataField>
+        </Field>
+        <Field Name="AmtInclVATSalesCrMmLine">
+          <DataField>AmtInclVATSalesCrMmLine</DataField>
+        </Field>
+        <Field Name="AmtInclVATSalesCrMmLineFormat">
+          <DataField>AmtInclVATSalesCrMmLineFormat</DataField>
         </Field>
         <Field Name="DimTextDimLoop">
           <DataField>DimTextDimLoop</DataField>

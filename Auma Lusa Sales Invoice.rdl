@@ -13250,6 +13250,24 @@ End Function</Code>
         <Field Name="IbanInfo">
           <DataField>IbanInfo</DataField>
         </Field>
+        <Field Name="TotalInEURLbl">
+          <DataField>TotalInEURLbl</DataField>
+        </Field>
+        <Field Name="TotalAmountInEUR">
+          <DataField>TotalAmountInEUR</DataField>
+        </Field>
+        <Field Name="TotalAmountInEURFormat">
+          <DataField>TotalAmountInEURFormat</DataField>
+        </Field>
+        <Field Name="SecondHandLegalMention">
+          <DataField>SecondHandLegalMention</DataField>
+        </Field>
+        <Field Name="HasSecondHandAssets">
+          <DataField>HasSecondHandAssets</DataField>
+        </Field>
+        <Field Name="OnlySecondHandAssets">
+          <DataField>OnlySecondHandAssets</DataField>
+        </Field>
         <Field Name="OutputNo">
           <DataField>OutputNo</DataField>
         </Field>
@@ -13504,6 +13522,9 @@ End Function</Code>
         </Field>
         <Field Name="ItemRefNo">
           <DataField>ItemRefNo</DataField>
+        </Field>
+        <Field Name="PTSS_Second_Hand_VAT">
+          <DataField>PTSS_Second_Hand_VAT</DataField>
         </Field>
         <Field Name="DimTextDimLoop">
           <DataField>DimTextDimLoop</DataField>
