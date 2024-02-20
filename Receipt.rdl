@@ -78,6 +78,24 @@
         <Field Name="Customer_VatRegNo">
           <DataField>Customer_VatRegNo</DataField>
         </Field>
+        <Field Name="CurrencyCodeHeader">
+          <DataField>CurrencyCodeHeader</DataField>
+        </Field>
+        <Field Name="Original_AmountCpt">
+          <DataField>Original_AmountCpt</DataField>
+        </Field>
+        <Field Name="PTSS_Remaining_AmountCpt">
+          <DataField>PTSS_Remaining_AmountCpt</DataField>
+        </Field>
+        <Field Name="Amount_LCYCpt">
+          <DataField>Amount_LCYCpt</DataField>
+        </Field>
+        <Field Name="gAmountInWordsDesc1">
+          <DataField>gAmountInWordsDesc1</DataField>
+        </Field>
+        <Field Name="gAmountInWordsDesc2">
+          <DataField>gAmountInWordsDesc2</DataField>
+        </Field>
         <Field Name="Copytext">
           <DataField>Copytext</DataField>
         </Field>
@@ -227,6 +245,24 @@
         </Field>
         <Field Name="PTSSTotalWihholdingAmtFormat">
           <DataField>PTSSTotalWihholdingAmtFormat</DataField>
+        </Field>
+        <Field Name="Original_Amount">
+          <DataField>Original_Amount</DataField>
+        </Field>
+        <Field Name="Original_AmountFormat">
+          <DataField>Original_AmountFormat</DataField>
+        </Field>
+        <Field Name="PTSS_Remaining_Amount">
+          <DataField>PTSS_Remaining_Amount</DataField>
+        </Field>
+        <Field Name="PTSS_Remaining_AmountFormat">
+          <DataField>PTSS_Remaining_AmountFormat</DataField>
+        </Field>
+        <Field Name="Amount_LCY">
+          <DataField>Amount_LCY</DataField>
+        </Field>
+        <Field Name="Amount_LCYFormat">
+          <DataField>Amount_LCYFormat</DataField>
         </Field>
         <Field Name="VATReceiptLines_VATPercen">
           <DataField>VATReceiptLines_VATPercen</DataField>
@@ -4648,7 +4684,7 @@ Fields!SAFTDocumentNo.Value
                               <Width>11.11749cm</Width>
                               <ZIndex>5</ZIndex>
                               <Visibility>
-                                <Hidden>=IIF(Fields!PaymentTerms.Value = "RG", True, False)</Hidden>
+                                <Hidden>true</Hidden>
                               </Visibility>
                               <Style>
                                 <Border>
@@ -4705,7 +4741,6 @@ Last(Fields!DescriptionLine2.Value, "DataSet_Result") + ")"</Value>
                             </Border>
                           </Style>
                         </Rectangle>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -5860,15 +5895,6 @@ Last(Fields!DescriptionLine2.Value, "DataSet_Result") + ")"</Value>
       </DefaultValue>
       <Prompt>ReceiptHeader_Customer_NoCaption</Prompt>
     </ReportParameter>
-    <ReportParameter Name="ReceiptLine_InvoiceDateCaption">
-      <DataType>String</DataType>
-      <DefaultValue>
-        <Values>
-          <Value>ReceiptLine_InvoiceDateCaption</Value>
-        </Values>
-      </DefaultValue>
-      <Prompt>ReceiptLine_InvoiceDateCaption</Prompt>
-    </ReportParameter>
     <ReportParameter Name="ReceiptLine_DescriptionCaption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -6062,7 +6088,7 @@ Last(Fields!DescriptionLine2.Value, "DataSet_Result") + ")"</Value>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>23</NumberOfRows>
+      <NumberOfRows>22</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -6072,111 +6098,106 @@ Last(Fields!DescriptionLine2.Value, "DataSet_Result") + ")"</Value>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>1</RowIndex>
-          <ParameterName>ReceiptLine_InvoiceDateCaption</ParameterName>
-        </CellDefinition>
-        <CellDefinition>
-          <ColumnIndex>0</ColumnIndex>
-          <RowIndex>2</RowIndex>
           <ParameterName>ReceiptLine_DescriptionCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>3</RowIndex>
+          <RowIndex>2</RowIndex>
           <ParameterName>ReceiptLine_PmtDiscGivenCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>4</RowIndex>
+          <RowIndex>3</RowIndex>
           <ParameterName>CompanyInfoPhoneNoCaptionLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>5</RowIndex>
+          <RowIndex>4</RowIndex>
           <ParameterName>CompanyInfoGiroNoCaptionLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>6</RowIndex>
+          <RowIndex>5</RowIndex>
           <ParameterName>CompanyInfoBankNameCptnLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>7</RowIndex>
+          <RowIndex>6</RowIndex>
           <ParameterName>CompanyInfoBankAccNoCptnLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>8</RowIndex>
+          <RowIndex>7</RowIndex>
           <ParameterName>CompanyInfoEMailCaptionLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>9</RowIndex>
+          <RowIndex>8</RowIndex>
           <ParameterName>CompanyInfoHomePageCptnLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>10</RowIndex>
+          <RowIndex>9</RowIndex>
           <ParameterName>CompanyInfoVATRegNoCptnLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>11</RowIndex>
+          <RowIndex>10</RowIndex>
           <ParameterName>DocumentDateCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>12</RowIndex>
+          <RowIndex>11</RowIndex>
           <ParameterName>DocumentNoCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>13</RowIndex>
+          <RowIndex>12</RowIndex>
           <ParameterName>TitleCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>14</RowIndex>
+          <RowIndex>13</RowIndex>
           <ParameterName>PageCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>15</RowIndex>
+          <RowIndex>14</RowIndex>
           <ParameterName>CurrencyCodeLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>16</RowIndex>
+          <RowIndex>15</RowIndex>
           <ParameterName>PaymentAmountLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>17</RowIndex>
+          <RowIndex>16</RowIndex>
           <ParameterName>CashFlowCodeLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>18</RowIndex>
+          <RowIndex>17</RowIndex>
           <ParameterName>GLAccNoLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>19</RowIndex>
+          <RowIndex>18</RowIndex>
           <ParameterName>DescriptionLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>20</RowIndex>
+          <RowIndex>19</RowIndex>
           <ParameterName>AmountLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>21</RowIndex>
+          <RowIndex>20</RowIndex>
           <ParameterName>DocumentTypeCptn</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
-          <RowIndex>22</RowIndex>
+          <RowIndex>21</RowIndex>
           <ParameterName>PaymentTypeSpecificationLbl</ParameterName>
         </CellDefinition>
       </CellDefinitions>
