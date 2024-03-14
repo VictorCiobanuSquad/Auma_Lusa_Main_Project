@@ -433,6 +433,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PTSS Purchase Receipt (PT) - Control ShowLotSN - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 506927104 - Control 1579047687 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt_PageExt - Control Territory Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 194870262 - Control 3181128135 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3657300613">
           <source>Tarrif number</source>
           <note from="Developer" annotates="general" priority="2"></note>
