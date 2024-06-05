@@ -1493,15 +1493,13 @@ report 50001 "PTSS Purchase Receipt (PT)" //230333092,n
 
     local procedure FormatDocumentFields(PurchHeader: Record "Purchase Header")
     begin
-        WITH PurchHeader DO BEGIN
-            FormatDocument.SetTotalLabels("Currency Code", TotalText, TotalInclVATText, TotalExclVATText);
-            FormatDocument.SetPurchaser(SalesPurchPerson, "Purchaser Code", PurchPersonText);
-            FormatDocument.SetPaymentTerms(PaymentTerms, "Payment Terms Code", "Language Code");
-            FormatDocument.SetPaymentTerms(PrepmtPaymentTerms, "Prepmt. Payment Terms Code", "Language Code");
-            FormatDocument.SetShipmentMethod(ShipmentMethod, "Shipment Method Code", "Language Code");
+        FormatDocument.SetTotalLabels(PurchHeader."Currency Code", TotalText, TotalInclVATText, TotalExclVATText);
+        FormatDocument.SetPurchaser(SalesPurchPerson, PurchHeader."Purchaser Code", PurchPersonText);
+        FormatDocument.SetPaymentTerms(PaymentTerms, PurchHeader."Payment Terms Code", PurchHeader."Language Code");
+        FormatDocument.SetPaymentTerms(PrepmtPaymentTerms, PurchHeader."Prepmt. Payment Terms Code", PurchHeader."Language Code");
+        FormatDocument.SetShipmentMethod(ShipmentMethod, PurchHeader."Shipment Method Code", PurchHeader."Language Code");
 
-            VATNoText := FormatDocument.SetText("VAT Registration No." <> '', FIELDCAPTION("VAT Registration No."));
-        END;
+        VATNoText := FormatDocument.SetText(PurchHeader."VAT Registration No." <> '', PurchHeader.FIELDCAPTION("VAT Registration No."));
     end;
 
     local procedure DocumentCaption(): Text[250]
@@ -1523,15 +1521,13 @@ report 50001 "PTSS Purchase Receipt (PT)" //230333092,n
         TempPostedAsmLine.DELETEALL();
         IF "Purchase Line".Type <> "Purchase Line".Type::Item THEN
             EXIT;
-        WITH ValueEntry DO BEGIN
-            SETCURRENTKEY("Document No.");
-            SETRANGE("Document No.", "Purchase Line"."Document No.");
-            SETRANGE("Document Type", "Document Type"::"Purchase Invoice");
-            SETRANGE("Document Line No.", "Purchase Line"."Line No.");
-            SETRANGE(Adjustment, FALSE);
-            IF NOT FINDSET() THEN
-                EXIT;
-        END;
+        ValueEntry.SETCURRENTKEY("Document No.");
+        ValueEntry.SETRANGE("Document No.", "Purchase Line"."Document No.");
+        ValueEntry.SETRANGE("Document Type", ValueEntry."Document Type"::"Purchase Invoice");
+        ValueEntry.SETRANGE("Document Line No.", "Purchase Line"."Line No.");
+        ValueEntry.SETRANGE(Adjustment, FALSE);
+        IF NOT ValueEntry.FINDSET() THEN
+            EXIT;
         REPEAT
             IF ItemLedgerEntry.GET(ValueEntry."Item Ledger Entry No.") THEN
                 IF ItemLedgerEntry."Document Type" = ItemLedgerEntry."Document Type"::"Sales Shipment" THEN BEGIN
@@ -1558,7 +1554,7 @@ report 50001 "PTSS Purchase Receipt (PT)" //230333092,n
         IF TempPostedAsmLine.FINDFIRST() THEN BEGIN
             TempPostedAsmLine.Quantity += PostedAsmLine.Quantity;
             TempPostedAsmLine.MODIFY();
-        END ELSE BEGIN
+        end else begin
             CLEAR(TempPostedAsmLine);
             TempPostedAsmLine := PostedAsmLine;
             TempPostedAsmLine.INSERT();

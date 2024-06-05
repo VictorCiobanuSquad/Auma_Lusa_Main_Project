@@ -17,6 +17,5 @@ pageextension 50001 "Item Categories Ext" extends "Item Categories"
     {
         // Add changes to page actions here
     }
-
     var
 }
